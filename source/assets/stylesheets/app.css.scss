@@ -10,10 +10,17 @@
 @import "foundation_and_overrides";
 
 // ---------------------------------------------------------
-// Uncomment to get the whole Foundation framework ...
+// Get only the needed foundation components ...
 // ---------------------------------------------------------
 
-@import "foundation.scss";
+@import "foundation/components/grid";
+@import "foundation/components/block-grid";
+@import "foundation/components/top-bar";
+@import "foundation/components/type";
+
+// ---------------------------------------------------------
+// Modules with site specific styles
+// ---------------------------------------------------------
 
 @import "base/colors";
 @import "base/mixins";

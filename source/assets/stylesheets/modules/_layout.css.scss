@@ -8,32 +8,55 @@
 // In general, the classes of this module only use the Foundation grid mixins 
 // like e.g. grid-row() and grid-column() to create rows and columns 
 // with semantic markup.
+//
+// !!! The $row-width variable is overwritten in foundation_and_overwrites: 
+//     $row-width: rem-calc(1441);
 // -----------------------------------------------------------------------------
 
-.layout--header {
+// ---------------------------------------------------------
+// A full width row for claims, footer, navigation ...
+// ---------------------------------------------------------
+.layout--full {
   @include grid-row;
   
-  .layout--header-inner{
-    @include grid-column($columns:6, $center:true);
+  .layout--full-box{
+    @include grid-column($columns:12);
   }
 }
 
-.layout--content {
+// ---------------------------------------------------------
+// A half width row for the maijor descriptions
+// ---------------------------------------------------------
+.layout--medium {
   @include grid-row;
-
-  .layout--content-left{
-    @include grid-column($columns:8);
+  
+  .layout--medium-box{
+    @include grid-column($columns:6);
   }
+}
 
-  .layout--content-right{
+// ---------------------------------------------------------
+// A third width row for content like twitter, dates ...
+// ---------------------------------------------------------
+.layout--small {
+  @include grid-row;
+  
+  .layout--small-box{
     @include grid-column($columns:4);
   }
 }
 
-.layout--footer {
+// ---------------------------------------------------------
+// The row with the visuals
+// ---------------------------------------------------------
+.layout--visual {
   @include grid-row;
   
-  .layout--footer-inner{
-    @include grid-column($columns:3, $center:true);
+  .layout--visual-box{
+    @include grid-column($columns:12);
+  }
+  
+  .layout--visual-images {
+    @include block-grid($per-row: 3);
   }
 }

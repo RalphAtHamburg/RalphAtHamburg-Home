@@ -1,0 +1,14 @@
+@mixin headline-font {
+  font-family: sommet-rounded, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+@mixin text-font {
+  font-family: gesta, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+}
+
+@mixin auto-hyphens {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
