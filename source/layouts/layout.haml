@@ -4,10 +4,15 @@
     %meta{charset: "utf-8"}
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
     %title= @title || "Webanwendungen - Webseiten -Social Media / Ralph M&ouml;cklinghoff - Hamburg"
+  
+    %script{:src => "http://use.typekit.com/kmw2qfx.js"}
+    :javascript
+      try{Typekit.load();}catch(e){}
+    
     = stylesheet_link_tag "app"
     = javascript_include_tag "before"
   %body{class: page_classes}
-    = partial "navigation"
+    = partial "header"
     = yield
     = partial "footer" 
     = javascript_include_tag  "all"

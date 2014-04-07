@@ -1,0 +1,32 @@
+-# ---------------------------------------------------------
+-# The navigation 
+-# ---------------------------------------------------------
+
+.contain-to-grid
+  %nav.top-bar{"data-topbar" => ""}
+    %ul.title-area
+      %li.name
+        %h1   
+          %a{:href => "/"} Home
+      %li.toggle-topbar.menu-icon
+        %a{:href => "#"} Menu
+              
+    %section.top-bar-section
+      %ul.left
+        %li{:class => ('active' if @about)}
+          %a{:href => "/about.html"} Über mich
+        %li{:class => ('active' if @blog)}
+          %a{:href => "#"} Blog
+        %li{:class => ('active' if @contact)}
+          %a{:href => "/contact.html"} Kontakt  
+    
+-# ---------------------------------------------------------
+-# The HEADLINE 
+-# ---------------------------------------------------------
+
+.layout--full
+  .layout--full-box
+    .header--headline
+      socialweb development 
+    .header--subheadline
+      ralph möcklinghoff

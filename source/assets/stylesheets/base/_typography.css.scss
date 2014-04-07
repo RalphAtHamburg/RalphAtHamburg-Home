@@ -1,9 +1,11 @@
-@mixin headline-font {
+@mixin headline-font($font-size: rem-calc(32)) {
   font-family: sommet-rounded, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: $font-size;
 }
 
-@mixin text-font {
+@mixin copy-font($font-size: rem-calc(20)) {
   font-family: gesta, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+  font-size: $font-size;
 }
 
 @mixin auto-hyphens {

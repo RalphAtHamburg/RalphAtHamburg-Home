@@ -1,0 +1,24 @@
+// ---------------------------------------------------------
+// This module contained all content elements like claim, 
+// testboxes adn so on
+// ---------------------------------------------------------
+
+.content--claim {
+  @include headline-font;
+  padding: rem-calc(10 0 30 0);
+  line-height: 1.5em;
+}
+
+.content--headline {
+  @include copy-font;
+  font-weight: 500;
+  padding: rem-calc(10 0 20 0);
+  text-transform: uppercase;
+}
+
+.content--copy {
+  @include copy-font;
+  padding: rem-calc(10 0 30 0);
+  line-height: 1.5em;
+  @include auto-hyphens;
+}

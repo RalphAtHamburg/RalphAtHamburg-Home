@@ -1,0 +1,17 @@
+// ---------------------------------------------------------
+// This module holds the styles for the navigation bar and 
+// the headlines.
+//
+// !!! Some styles for the navigation bar are overwritten 
+//     in foundation_and_overwrites: 
+// ---------------------------------------------------------
+.header--headline {
+  @include headline-font(rem-calc(52));
+  padding-top: rem-calc(20);
+}
+
+.header--subheadline {
+  @include headline-font(rem-calc(36));
+  color: $eye-catcher;
+  padding-bottom: rem-calc(30);
+}
