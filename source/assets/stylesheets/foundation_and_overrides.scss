@@ -51,7 +51,7 @@ $body-font-family: gesta, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-se
 // $default-float: left;
 
 // We use these as default colors throughout
-// $primary-color: #008CBA;
+$primary-color: #999999;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -530,7 +530,7 @@ $body-font-family: gesta, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-se
 // $glowing-effect-color: $input-focus-border-color;
 
 // Select variables
-// $select-bg-color: #fafafa;
+// $select-bg-color: ##00b1ff;
 
 // Inline Lists
 
@@ -1149,7 +1149,7 @@ $topbar-link-color: #333;
 $topbar-link-color-active: #00b1ff;
 // $topbar-link-color-active-hover: #fff;
 // $topbar-link-weight: normal;
-// $topbar-link-font-size: rem-calc(13);
+$topbar-link-font-size: rem-calc(18);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg-hover: #272727;
 $topbar-link-bg-active: #fff;

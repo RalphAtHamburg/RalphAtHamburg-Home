@@ -1,0 +1,20 @@
+---
+de:
+
+  home:
+    claim: "Ich bin freiberuflicher Software- und Webentwickler aus Hamburg. Ich berate
+            und entwickle Lösungen in den Bereichen Webanwendungen und Webseiten. Meine 
+            Schwerpunkte liegen auf Ruby on Rails, der Frontend Entwicklung             
+            (HTML5/CSS3/SASS, JavaScript, Responsive Development), sowie Usability."
+    header_webapps: "Webanwendungen"
+    webapps: "Durch agiles Vorgehen und unternehmerischer und lösungsorientierter Arbeitsweise 
+              unterstütze ich Ihr Team bei der Realisierung Ihrer Webanwendung. 
+              Ich entwickle dynamische Websites und -anwendungen mit Ruby on Rails und unterstütze
+              meine Kunden bei der Frontend Entwicklung, auch im mobilen Bereich 
+              (Responsive Development, HTML5, CSS3, jQuery, Ajax)."
+    header_websites: "Webseiten"
+    websites: "Ihre Webseite muss heute sowohl auf dem Desktoprechner, als auch auf mobilen 
+               Geräten, wie dem iPhone oder iPad gut aussehen. Ich entwickele qualitativ 
+               hochwertige und zukunftssichere Webseiten, die auf modernen technischen Standards 
+               aufbauen. Darüber hinaus berate ich Ihr Unternehmen dabei, Ihren Internet Auftritt 
+               mit zeitgemäßem Layout und modernster Technik zu gestalten."

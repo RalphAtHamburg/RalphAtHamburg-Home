@@ -42,7 +42,14 @@
   @include grid-row;
   
   .layout--small-box{
-    @include grid-column($columns:4);
+  
+    // Mobile-first: make `layout--small-box` full-width
+    @include grid-column($columns:12);
+    
+    // On medium-up size, make `layout--small-box` 4 columns wide
+    @media #{$medium-up} {
+      @include grid-column(4);
+    }
   }
 }
 
@@ -52,7 +59,7 @@
 .layout--visual {
   @include grid-row;
   
-  .layout--visual-box{
+  .layout--visual-box {
     @include grid-column($columns:12);
   }
   

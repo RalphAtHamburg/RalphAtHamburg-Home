@@ -7,6 +7,9 @@
   @include headline-font;
   padding: rem-calc(10 0 30 0);
   line-height: 1.5em;
+    
+  span {
+    color: $eye-catcher;  }
 }
 
 .content--headline {
@@ -21,4 +24,26 @@
   padding: rem-calc(10 0 30 0);
   line-height: 1.5em;
   @include auto-hyphens;
+  
+  span {
+    color: $eye-catcher;
+  }
+}
+
+.content--headline-sub { 
+  @include copy-font(rem-calc(19));
+  padding-bottom: rem-calc(10);
+  margin-bottom: rem-calc(40);
+  border-bottom: solid rem-calc(5) $eye-catcher;
+  text-align: center;
+}
+
+.content--date {
+  @include copy-font(rem-calc(16));
+  padding-bottom: rem-calc(10);
+}
+
+.content--event {
+  @include copy-font(rem-calc(16));
+  padding-bottom: rem-calc(30);
 }

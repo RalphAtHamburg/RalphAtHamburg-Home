@@ -12,6 +12,6 @@
 
 .header--subheadline {
   @include headline-font(rem-calc(36));
-  color: $eye-catcher;
   padding-bottom: rem-calc(30);
+  color: $eye-catcher;
 }

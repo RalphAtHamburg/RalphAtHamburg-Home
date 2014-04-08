@@ -1,3 +1,7 @@
+// ---------------------------------------------------------
+// 
+// ---------------------------------------------------------
+
 @mixin headline-font($font-size: rem-calc(32)) {
   font-family: sommet-rounded, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
   font-size: $font-size;
@@ -13,4 +17,15 @@
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
+}
+
+* {
+  &::-moz-selection { 
+    color: #ffff;
+    background-color: $eye-catcher
+  }
+  &::selection { 
+    color: #ffff;
+    background-color: $eye-catcher
+  }
 }

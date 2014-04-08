@@ -1,0 +1,5 @@
+- data.events.dates.each do |d| 
+  .content--date
+    = d.date
+  .content--event
+    = link_to d.name, d.url

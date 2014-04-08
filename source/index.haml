@@ -1,3 +1,7 @@
+-# ---------------------------------------------------------
+-# The images 
+-# ---------------------------------------------------------
+
 .layout--visual
   .layout--visual-box
     %ul.layout--visual-images
@@ -5,22 +9,64 @@
       %li= image_tag 'html.jpg'
       %li= image_tag 'diagram.jpg'
 
+-# ---------------------------------------------------------
+-# The claim 
+-# ---------------------------------------------------------
+
 .layout--full
   .layout--full-box.content--claim
-    Ich bin freiberuflicher Software- und Webentwickler aus Hamburg. Ich berate und entwickle Lösungen in den Bereichen Webanwendungen sowie Webseiten. Meine Schwerpunkte liegen auf Ruby on Rails, der Frontend Entwicklung (HTML5/CSS3/SASS, JavaScript, Responsive Development), sowie Usability.
-  
+    = t("home.claim")
+    
+-# ---------------------------------------------------------
+-# The 2 long copies webapplication and websites
+-# ---------------------------------------------------------
+
 .layout--medium
   .layout--medium-box
-    .content--headline Webanwendungen
-    .content--copy
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-    
+    .content--headline= t("home.header_webapps")
+    .content--copy= t("home.webapps")
+         
   .layout--medium-box
-    .content--headline Webseiten
-    .content--copy
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+    .content--headline= t("home.header_websites")
+    .content--copy= t("home.websites")
+
+-# ---------------------------------------------------------
+-# The bottom area with additional content for twitter
+-# about, ants with friends and dates
+-# ---------------------------------------------------------
 
 .layout--small
-  .layout--small-box Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  .layout--small-box Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  .layout--small-box Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  .layout--small-box
+  
+    .content--headline-sub
+      Twitter
+    %a.twitter-timeline{"data-dnt" => "true", "data-widget-id" => "421354655507951616", href: "https://twitter.com/RalphAtHamburg"} Tweets von @RalphAtHamburg    
+      
+  .layout--small-box
+    .content--headline-sub
+      Über diese Seite
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    .content--headline-sub
+      ANTS with FRIENDS
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    
+  .layout--small-box
+    .content--headline-sub
+      Meine Termine
+    = partial ("dates")
+ 
+-# ---------------------------------------------------------
+-# The JS for the twitter timeline 
+-# ---------------------------------------------------------
+   
+:javascript
+  ! function (d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    p = /^http:/.test(d.location) ? 'http' : 'https';
+  if (!d.getElementById(id)) {
+    js = d.createElement(s);
+    js.id = id;
+    js.src = p + "://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }
+  }(document, "script", "twitter-wjs");

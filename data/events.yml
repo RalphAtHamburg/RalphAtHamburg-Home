@@ -1,0 +1,73 @@
+################################################################################
+#
+# All the events inside the event area. The data will be used by the 
+# partial '_dates.haml'
+#
+################################################################################
+
+---
+  dates: 
+    - 
+      date: "06.05.2014 - 08.05.2014"
+      name: "re:publica 14 - Berlin"
+      url:  "http://re-publica.de"
+    - 
+      date: "13.03.2014 - 14.03.2014"
+      name: "Work In Progress - Hamburg"
+      url:  "http://work-in-progress-hamburg.de"
+    - 
+      date: "17.02.2014 - 21.02.2014"
+      name: "Social Media Week - Hamburg"
+      url:  "http://socialmediaweek.org/hamburg"
+    - 
+      date: "15.11.2013 - 16.11.2013"
+      name: "Barcamp Hamburg - Otto Versand"
+      url:  "http://www.barcamp-hamburg.de"
+    - 
+      date: "12.07.2013"
+      name: "Big Data Seminar - mongoDB"
+      url:  "http://www.10gen.com/events/big-data-breakfast-seminar-hamburg-germany"
+    - 
+      date: "14.05.2013"
+      name: "Kanban bei Paarship"
+      url:  "http://limited-wip-society-hamburg.mixxt.de/networks/events/show_event.78514"
+    - 
+      date: "2.11.2012 - 3.11.2012"
+      name: "Barcamp Hamburg - Otto Versand"
+      url:  "http://www.barcamp-hamburg.de"
+    - 
+      date: "18.8.2012"
+      name: "UX Camp Hamburg"
+      url:  "http://www.uxcamphh.de"
+    - 
+      date: "8.3.2012"
+      name: "CeBIT"
+      url:  "http://cebit.de"
+    - 
+      date: "13-17.2.2012"
+      name: "Social Media Week Hamburg"
+      url:  "http://socialmediaweek.org/hamburg"
+    - 
+      date: "26.1.2012"
+      name: "Social Media Club Hamburg - 'Is your Facebook fan page worth anything?'"
+      url:  "https://www.xing.com/events/smchh-ladt-thema-is-your-facebook-fan-page-worth-anything-26-01-2012-857892"
+    - 
+      date: "11-12.11.2011"
+      name: "Barcamp Hamburg - Otto Versand"
+      url:  "http://www.barcamp-hamburg.de"
+    - 
+      date: "3.11.2011"
+      name: "Social Media Club Hamburg - 'Social Media und die Musik'"
+      url:  "https://www.xing.com/events/social-media-club-hamburg-event-03-11-2011-social-media-musik-830687"
+    - 
+      date: "29-30.10.2011"
+      name: "Railscamp Hamburg"
+      url:  "http://railscamp-hamburg.de"
+    - 
+      date: "20.09.2011"
+      name: "betaclub no. 6"
+      url:  "https://www.xing.com/events/betaclub-no-6-mirko-kaminski-ceo-achtung-809096"
+    - 
+      date: "05.09.2011"
+      name: "User Centered Design bei XING"
+      url:  "http://uxhh.de/roundtable/"
