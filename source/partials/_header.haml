@@ -16,7 +16,7 @@
         %li{:class => ('active' if @about)}
           %a{:href => "/about.html"} Über mich
         %li{:class => ('active' if @blog)}
-          %a{:href => "#"} Blog
+          = link_to "Blog", blog.articles.first.url
         %li{:class => ('active' if @contact)}
           %a{:href => "/contact.html"} Kontakt  
     

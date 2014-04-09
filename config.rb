@@ -5,13 +5,13 @@
 compass_config do |config|
   # Require any additional compass plugins here.
   config.add_import_path "bower_components/foundation/scss"
-  
+   
   # Set this to the root of your project when deployed:
   config.http_path = "/"
-  config.css_dir = "stylesheets"
-  config.sass_dir = "stylesheets"
-  config.images_dir = "images"
-  config.javascripts_dir = "javascripts"
+  config.css_dir = "assets/stylesheets"
+  config.sass_dir = "assets/stylesheets"
+  config.images_dir = "assets/images"
+  config.javascripts_dir = "assets/javascripts"
 
   # You can select your preferred output style here (can be overridden via the command line):
   # output_style = :expanded or :nested or :compact or :compressed
@@ -123,6 +123,26 @@ activate :livereload
 ################################################################################
 
 activate :i18n
+
+################################################################################
+# Activate blogging
+################################################################################
+
+activate :blog do |blog|
+  blog.permalink = "blog/:year/:title.html"
+  blog.sources = "blog/:year/:title.html"
+end
+
+################################################################################
+# Set kramdown as markdown engine
+################################################################################
+
+set :markdown_engine, :kramdown
+
+activate :syntax
+
+# fix wrong indention in markdown code blocks 
+set :haml, { ugly: true }
 
 ################################################################################
 # Build-specific configuration

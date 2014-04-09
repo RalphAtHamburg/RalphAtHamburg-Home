@@ -13,6 +13,12 @@
     = javascript_include_tag "before"
   %body{class: page_classes}
     = partial "header"
-    = yield
+    
+    - if is_blog_article?
+      - content_for :blog_article, yield
+      = partial 'article'
+    - else
+      = yield
+    
     = partial "footer" 
     = javascript_include_tag  "all"

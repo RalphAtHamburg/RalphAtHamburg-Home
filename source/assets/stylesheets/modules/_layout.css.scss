@@ -67,3 +67,27 @@
     @include block-grid($per-row: 3);
   }
 }
+
+// ---------------------------------------------------------
+// The blog pages
+// ---------------------------------------------------------
+.layout--blog-head {
+  @include grid-row;
+  
+  .layout--blog-head-visual {
+    @include grid-column($columns:3);
+  }
+  
+  .layout--blog-head-toc {
+    @include grid-column($columns: 9);
+  }
+}
+
+.layout--blog-article {
+  @include grid-row;
+  
+  .layout--blog-article-inner {
+    @include grid-column($columns:12);
+  }
+}
+

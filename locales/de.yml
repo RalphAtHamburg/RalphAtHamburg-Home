@@ -18,3 +18,11 @@ de:
                hochwertige und zukunftssichere Webseiten, die auf modernen technischen Standards 
                aufbauen. Darüber hinaus berate ich Ihr Unternehmen dabei, Ihren Internet Auftritt 
                mit zeitgemäßem Layout und modernster Technik zu gestalten."
+    header_middleman: "Über diese Seite" 
+    middleman: "Diese Seite ist mit %{link_1}, einem Generator für statische Webseiten gebaut. Dabei
+                die folgenden Tools benutzt: %{link_2} (Frontend Framework), %{link_3} (Syntactically 
+                Awesome Style Sheets), %{link_4} (HTML Abstraction Markup Language) und %{link_5}
+                (CSS Authoring Framework). Der Quellcode der Seite kann von %{link_5} herunter geladen werden."
+    header_awf: "ANTS with FRIENDS"
+    awf: "Ein freies Netz von Online-Experten unter dem Dach einer Marke. Wir sind ein Team 
+         eingespielter Designer, Konzepter, Texter und Entwickler. %{link} hat das richtige Team für Ihr Projekt."

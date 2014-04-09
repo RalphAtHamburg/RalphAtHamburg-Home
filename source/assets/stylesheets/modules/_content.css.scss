@@ -38,6 +38,12 @@
   text-align: center;
 }
 
+.content--sub { 
+  @include copy-font(rem-calc(16));
+  padding-bottom: rem-calc(30);
+  line-height: rem-calc(23);
+}
+
 .content--date {
   @include copy-font(rem-calc(16));
   padding-bottom: rem-calc(10);

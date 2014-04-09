@@ -43,13 +43,23 @@
     %a.twitter-timeline{"data-dnt" => "true", "data-widget-id" => "421354655507951616", href: "https://twitter.com/RalphAtHamburg"} Tweets von @RalphAtHamburg    
       
   .layout--small-box
+  
     .content--headline-sub
-      Über diese Seite
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    .content--headline-sub
-      ANTS with FRIENDS
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      = t("home.header_middleman")
+    .content--sub
+      = t("home.middleman", :link_1 => "#{link_to('Middleman', 'http://middlemanapp.com')}",
+                            :link_2 => "#{link_to('Foundation 5', 'http://foundation.zurb.com')}",
+                            :link_3 => "#{link_to('SASS', 'http://sass-lang.com')}",
+                            :link_4 => "#{link_to('HAML', 'http://haml.info')}",
+                            :link_5 => "#{link_to('GitHub', 'https://github.com/RalphAtHamburg/RalphAtHamburg')}",
+                            :link_5 => "#{link_to('Compass', 'http://compass-style.org')}" )
+      
     
+    .content--headline-sub
+      = t("home.header_awf")
+    .content--sub
+      = t("home.awf", :link => "#{link_to('ANTS with FRIENDS', 'http://antswithfriends.net')}")
+        
   .layout--small-box
     .content--headline-sub
       Meine Termine

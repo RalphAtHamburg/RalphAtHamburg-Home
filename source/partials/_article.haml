@@ -1,0 +1,49 @@
+- @bodyclass = "article"
+- @plainLayout = true
+
+.layout--blog-head
+        
+  .layout--blog-head-toc
+  
+    %ul.no-bullet
+      - blog.articles.each do |article|
+        %li{:class => ( 'current' if article.title == current_article.title)}
+          %a{:href => article.url}= article.title
+        
+        
+  .layout--blog-head-visual
+    = image_tag "code-2.jpg"
+      
+    
+.layout--blog-article
+  .layout--blog-article-inner
+  
+    %article
+      %header.blog--header
+        %h3
+          = current_article.title 
+          %span
+            %time= current_article.date.strftime('%d.%m.%Y')
+    
+      .markdown
+        = yield_content :blog_article
+          
+      #social-links
+        = link_to "Google+", "https://plus.google.com/111711791402435561115?prsrc=3", {:rel => "author", :style => "text-decoration:none;", :class => "icons-google-plus-black"}
+      
+      #disqus_thread
+        :javascript
+        
+          var disqus_shortname = 'socialwebdevelopment'; 
+  
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        %noscript
+          Please enable JavaScript to view the
+          %a{:href => "http://disqus.com/?ref_noscript"} comments powered by Disqus.
+        %a.dsq-brlink{:href => "http://disqus.com"}
+          blog comments powered by
+          %span.logo-disqus Disqus

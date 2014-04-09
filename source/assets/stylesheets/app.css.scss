@@ -19,6 +19,21 @@
 @import "foundation/components/type";
 
 // ---------------------------------------------------------
+// For syntac highlighting inside blog articles
+// ---------------------------------------------------------
+@import "pygments/solarized";
+
+// ---------------------------------------------------------
+// Compass for sprite generation and handling (styles)
+// include all-"directory name"-sprites
+// ---------------------------------------------------------
+
+// $icons-spacing: 20px;
+@import "compass/utilities/sprites";
+@import "icons/*.png";
+@include all-icons-sprites;
+
+// ---------------------------------------------------------
 // Modules with site specific styles
 // ---------------------------------------------------------
 
@@ -29,3 +44,4 @@
 @import "modules/layout";
 @import "modules/header";
 @import "modules/content";
+@import "modules/blog";
