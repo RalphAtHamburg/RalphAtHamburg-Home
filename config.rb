@@ -5,13 +5,15 @@
 compass_config do |config|
   # Require any additional compass plugins here.
   config.add_import_path "bower_components/foundation/scss"
-   
+    
   # Set this to the root of your project when deployed:
   config.http_path = "/"
   config.css_dir = "assets/stylesheets"
   config.sass_dir = "assets/stylesheets"
   config.images_dir = "assets/images"
   config.javascripts_dir = "assets/javascripts"
+  
+  #config.sass_options = {:debug_info => true}
 
   # You can select your preferred output style here (can be overridden via the command line):
   # output_style = :expanded or :nested or :compact or :compressed
@@ -100,7 +102,13 @@ end
 
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  
+  Dir.glob(File.join("#{root}", @bower_config["directory"], "*", "fonts")) do |f|
+    sprockets.append_path f
+  end
+  
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
+
 end
 
 ################################################################################
@@ -143,6 +151,7 @@ activate :syntax
 
 # fix wrong indention in markdown code blocks 
 set :haml, { ugly: true }
+
 
 ################################################################################
 # Build-specific configuration

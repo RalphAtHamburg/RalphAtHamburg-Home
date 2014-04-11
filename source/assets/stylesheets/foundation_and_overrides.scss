@@ -190,13 +190,13 @@ $primary-color: #999999;
 // $acronym-underline: 1px dotted #ddd;
 
 // We use these to control padding and margin
-// $microformat-padding: rem-calc(10 12);
-// $microformat-margin: rem-calc(0 0 20 0);
+$microformat-padding: 0;
+$microformat-margin: 0;
 
 // We use these to control the border styles
-// $microformat-border-width: 1px;
-// $microformat-border-style: solid;
-// $microformat-border-color: #ddd;
+$microformat-border-width: 0;
+$microformat-border-style: solid;
+$microformat-border-color: #ddd;
 
 // We use these to control full name font styles
 // $microformat-fullname-font-weight: bold;

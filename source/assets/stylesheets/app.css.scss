@@ -1,4 +1,6 @@
 // ---------------------------------------------------------
+@charset "utf-8";
+
 // Root file for the stylesheets. This is the only file
 // that will be imported in the html header
 // ---------------------------------------------------------
@@ -21,14 +23,21 @@
 // ---------------------------------------------------------
 // For syntac highlighting inside blog articles
 // ---------------------------------------------------------
+
 @import "pygments/solarized";
+
+// ---------------------------------------------------------
+// Use icon fonts for social media icons
+// ---------------------------------------------------------
+
+@import "font-awesome/scss/font-awesome";
 
 // ---------------------------------------------------------
 // Compass for sprite generation and handling (styles)
 // include all-"directory name"-sprites
 // ---------------------------------------------------------
 
-// $icons-spacing: 20px;
+$icons-spacing: 20px;
 @import "compass/utilities/sprites";
 @import "icons/*.png";
 @include all-icons-sprites;
@@ -45,3 +54,5 @@
 @import "modules/header";
 @import "modules/content";
 @import "modules/blog";
+@import "modules/footer";
+@import "modules/socialmedia";

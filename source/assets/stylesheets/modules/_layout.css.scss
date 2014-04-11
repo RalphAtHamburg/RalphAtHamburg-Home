@@ -16,6 +16,7 @@
 // ---------------------------------------------------------
 // A full width row for claims, footer, navigation ...
 // ---------------------------------------------------------
+
 .layout--full {
   @include grid-row;
   
@@ -27,6 +28,7 @@
 // ---------------------------------------------------------
 // A half width row for the maijor descriptions
 // ---------------------------------------------------------
+
 .layout--medium {
   @include grid-row;
   
@@ -38,6 +40,7 @@
 // ---------------------------------------------------------
 // A third width row for content like twitter, dates ...
 // ---------------------------------------------------------
+
 .layout--small {
   @include grid-row;
   
@@ -56,6 +59,7 @@
 // ---------------------------------------------------------
 // The row with the visuals
 // ---------------------------------------------------------
+
 .layout--visual {
   @include grid-row;
   
@@ -71,6 +75,7 @@
 // ---------------------------------------------------------
 // The blog pages
 // ---------------------------------------------------------
+
 .layout--blog-head {
   @include grid-row;
   
@@ -88,6 +93,46 @@
   
   .layout--blog-article-inner {
     @include grid-column($columns:12);
+  }
+}
+
+// ---------------------------------------------------------
+// The about page
+// ---------------------------------------------------------
+
+.layout--about {
+  @include grid-row;
+  
+  .layout--about-text {
+    @include grid-column($columns:10);
+  }
+  
+  .layout--about-links {
+    @include grid-column($columns: 2);
+  }
+}
+
+// ---------------------------------------------------------
+// The imprint page
+// ---------------------------------------------------------
+
+.layout--imprint {
+  @include grid-row;
+  
+  .layout--imprint-box {
+    @include grid-column($columns:8, $center:true);
+  }
+}
+
+// ---------------------------------------------------------
+// The imprint page
+// ---------------------------------------------------------
+
+.layout--footer {
+  @include grid-row;
+  
+  .layout--footer-box {
+    @include grid-column($columns:6, $center:true);
   }
 }
 

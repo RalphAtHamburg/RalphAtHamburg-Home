@@ -1,0 +1,16 @@
+// ---------------------------------------------------------
+// This module holds the styles for the footer 
+// ---------------------------------------------------------
+
+.footer {
+  @include copy-font(10);
+  padding: rem-calc(20 0);
+  text-align: center;
+  color: $light-test-color;
+  
+  a {
+    &:hover { 
+      text-decoration: underline;
+    } 
+  }
+}

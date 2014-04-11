@@ -1,4 +1,48 @@
 - @about = true
 
-.layout--full
-  .layout--full-inner Ueber mich Seite
+.layout--about
+  
+  .layout--about-text 
+  
+    .content--headline
+      = t("about.header_me")
+    .content--copy
+      = t("about.me")
+  
+    .content--headline
+      = t("about.header_customer")
+    .content--copy
+      = t("about.customer")
+      %br
+      = t("about.brands", :link_1 => "#{link_to('Inveos', 'http://middlemanapp.com')}",
+                          :link_2 => "#{link_to('zweitag', 'http://foundation.zurb.com')}",
+                          :link_3 => "#{link_to('ANTS with FRIENDS', 'http://sass-lang.com')}",
+                          :link_4 => "#{link_to('mee-moo', 'http://sass-lang.com')}",
+                          :link_5 => "#{link_to('brandmarken.', 'http://haml.info')}" )
+  
+  .layout--about-links
+    
+    .content--headline
+      = t("about.header_social_media")
+        
+    .socialmedia--link 
+      %a{:href => "https://www.xing.com/profile/Ralph_Moecklinghoff"}
+        %i.fa.fa-xing &nbsp;
+        = t("about.xing")
+    .socialmedia--link
+      %a{:href => "https://github.com/RalphAtHamburg"}   
+        %i.fa.fa-github &nbsp;
+        = t("about.github")
+    .socialmedia--link 
+      %a{:href => "http://www.linkedin.com/in/ralphmoecklinghoff"}
+        %i.fa.fa-linkedin &nbsp;
+        = t("about.linked_in")
+    .socialmedia--link 
+      %a{:href => "https://plus.google.com/+RalphMöcklinghoff"}
+        %i.fa.fa-google-plus &nbsp;
+        = t("about.google")
+    .socialmedia--link 
+      %a{:href => "https://twitter.com/RalphAtHamburg"}
+        %i.fa.fa-twitter &nbsp;
+        = t("about.twitter")
+    

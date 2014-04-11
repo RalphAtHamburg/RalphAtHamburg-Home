@@ -4,8 +4,8 @@ de:
   home:
     claim: "Ich bin freiberuflicher Software- und Webentwickler aus Hamburg. Ich berate
             und entwickle Lösungen in den Bereichen Webanwendungen und Webseiten. Meine 
-            Schwerpunkte liegen auf Ruby on Rails, der Frontend Entwicklung             
-            (HTML5/CSS3/SASS, JavaScript, Responsive Development), sowie Usability."
+            Schwerpunkte liegen auf Ruby on Rails und der Frontend Entwicklung             
+            (HTML5/SASS/Compass, JavaScript)."
     header_webapps: "Webanwendungen"
     webapps: "Durch agiles Vorgehen und unternehmerischer und lösungsorientierter Arbeitsweise 
               unterstütze ich Ihr Team bei der Realisierung Ihrer Webanwendung. 
@@ -22,7 +22,45 @@ de:
     middleman: "Diese Seite ist mit %{link_1}, einem Generator für statische Webseiten gebaut. Dabei
                 die folgenden Tools benutzt: %{link_2} (Frontend Framework), %{link_3} (Syntactically 
                 Awesome Style Sheets), %{link_4} (HTML Abstraction Markup Language) und %{link_5}
-                (CSS Authoring Framework). Der Quellcode der Seite kann von %{link_5} herunter geladen werden."
+                (CSS Authoring Framework). Der Quellcode der Seite kann von %{link_6} herunter geladen werden."
     header_awf: "ANTS with FRIENDS"
     awf: "Ein freies Netz von Online-Experten unter dem Dach einer Marke. Wir sind ein Team 
          eingespielter Designer, Konzepter, Texter und Entwickler. %{link} hat das richtige Team für Ihr Projekt."
+         
+  about:
+    header_me: "Über mich"
+    me: "Ich bin freiberuflicher Software- und Webentwickler aus Hamburg. Ich berate und entwickle 
+         Lösungen in den Bereichen Social Media, Webanwendungen und Webseiten. Meine Schwerpunkte
+         liegen auf Ruby on Rails, der Frontend Entwicklung
+        (HTML5 CSS3/SASS, jQuery, Responsive Development), sowie Usability."
+    header_social_media: "Social Media"
+    header_customer: "Kunden"
+    customer: "Zu meinen Kunden gehören kleinere und mittlere Unternehmen sowie Startups. 
+               Für größere Unternehmen arbeite ich in der Regel im Agenturauftrag."
+    brands: "HASPA (für %{link_1}) - Fashmob (für %{link_2}) - ImmoPionier (mit %{link_3}) - 
+             Rexona (für %{link_4}) - Peek&Cloppenburg KG Hamburg (für %{link_5}) - Oldenburgische 
+             Landesbank (für %{link_5}) - Hinz&Kunzt (mit %{link_3}) - 
+             BBDO Proximity (div. Kunden) - Desksurfing (mit %{link_3})"
+    xing: "XING"
+    github: "GitHub"
+    linked_in: "LinkedIn"
+    google: "Google+"
+    twitter: "Twitter"
+  
+  imprint:
+    header: "Verantwortlich i.S.d § 5 TMG / § 55 RStV"
+    vat: "Umsatzsteuer-Identifikationsnummer gem. § 27a UStG:"
+    analytics: "Diese Website benutzt %{link}, eine Open-Source-Software zur statistischen Auswertung der 
+                Besucherzugriffe. Piwik verwendet sog. “Cookies”, Textdateien, die auf Ihrem Computer 
+                gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. 
+                Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden 
+                auf einem Server in Deutschland gespeichert und nicht an Dritte weitergegeben. Die 
+                IP-Adresse wird sofort nach der Verarbeitung und vor deren Speicherung anonymisiert. 
+                Sie können die Installation der Cookies durch eine entsprechende Einstellung Ihrer 
+                Browser-Software verhindern. Sofern Ihr Browser die 'Do-Not-Track''-Technik unterstützt 
+                und Sie diese aktiviert haben, wird Piwik die Besucherzugriffe ebenfalls nicht erfassen.
+                Piwik ist nach den Empfehlungen des unabhängigen Landeszentrums für Datenschutz (ULD) 
+                Schleswig-Holstein konfiguriert und folgt den geltenden Datenschutzbestimmungen."
+      
+  footer:
+    text: "&copy; %{date} &bull; Ralph Möcklinghoff &bull; Hamburg &bull; %{imprint}"

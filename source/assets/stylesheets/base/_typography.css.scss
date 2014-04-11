@@ -1,10 +1,12 @@
 // ---------------------------------------------------------
-// 
+// Note: The standard font is set inside 
+// foundation_and_overwrites.scss ($body-font-family)
 // ---------------------------------------------------------
 
 @mixin headline-font($font-size: rem-calc(32)) {
-  font-family: sommet-rounded, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
+  font-family: museo-slab, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
   font-size: $font-size;
+  font-weight: 300;
 }
 
 @mixin copy-font($font-size: rem-calc(20)) {

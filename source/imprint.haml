@@ -1,0 +1,35 @@
+- @imprint = true
+
+.layout--imprint
+  
+  .layout--imprint-box
+    %p
+      = t("imprint.header")
+        
+    %ul.vcard
+      %li.fm Ralph Möcklinghoff
+      %li.street-address Immenhof 35
+      %li.locality 
+        %span.zip 22087
+        Hamburg
+      %li.email mail@ralph-moecklinghoff.de
+    
+    %p
+      = t("imprint.vat")
+    
+    %p
+      = t("imprint.analytics", :link => "#{link_to('Piwik', 'http://piwik.org')}")
+          
+    %h6 Bildnachweis Startseite:
+    
+    %p
+      &copy; iStockphoto.com/photovibes
+      %br/
+      &copy; iStockphoto.com/-oxford-
+      %br/
+      &copy; iStockphoto.com/Talaj
+    
+    %h6 Bildnachweis Blog:
+    
+    %p
+      &copy; iStockphoto.com/-oxford-

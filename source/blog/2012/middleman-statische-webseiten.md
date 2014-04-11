@@ -40,7 +40,7 @@ de:
     impressum: "Impressum"  
 ~~~
     
-Auf den Seiten angesprochen werden sie in der Form `t("title.headline")`. Dank der Möglichkeit Ruby einsetzen zu können, lassen sich auch Grafiken oder andere nicht textuelle Features sprachabhängig anpassen.
+Auf den Seiten angesprochen werden sie in der Form "t("title.headline")". Dank der Möglichkeit Ruby einsetzen zu können, lassen sich auch Grafiken oder andere nicht textuelle Features sprachabhängig anpassen.
 
 ~~~ haml
 %div
@@ -48,9 +48,9 @@ Auf den Seiten angesprochen werden sie in der Form `t("title.headline")`. Dank d
   = image_tag 'pic-en.jpg' if locale == :en
 ~~~
     
-Für jede weitere Sprache ist es lediglich nötig, die entsprechende Sprachdatei in den Ordner `locales` zu legen. Middleman generiert dann alle nötigen statischen Seiten.
+Für jede weitere Sprache ist es lediglich nötig, die entsprechende Sprachdatei in den Ordner "locales" zu legen. Middleman generiert dann alle nötigen statischen Seiten.
 
-Middleman kommt mit vorkonfigurierten leeren Projekten (z.B. HTML5). Auf Github gibt es eine ganze Menge fertiger Projekte, wie z.B. [Middleman Bootstrap](https://github.com/nathos/middleman-bootstrap) welches auf Boilerplate, Compass und dem Suzy Grid basiert. Eigene Projekte lassen sich einfach in einem Verzeichnis unter `~/.middleman` ablegen. Dann kann man mit `middleman init myproject` gleich mit einem leeren Rahmen loslegen.
+Middleman kommt mit vorkonfigurierten leeren Projekten (z.B. HTML5). Auf Github gibt es eine ganze Menge fertiger Projekte, wie z.B. [Middleman Bootstrap](https://github.com/nathos/middleman-bootstrap) welches auf Boilerplate, Compass und dem Suzy Grid basiert. Eigene Projekte lassen sich einfach in einem Verzeichnis unter "~/.middleman" ablegen. Dann kann man mit "middleman init myproject" gleich mit einem leeren Rahmen loslegen.
 
 Dies sind nur einige Beispiele dafür, was man mit Middleman machen kann. Die Möglichkeiten Middleman bietet sind schon gewaltig. Ich habe Middleman gerade in einem komplexen Projekt eingesetzt und werde es für statische Seiten jetzt immer nehmen. Middleman wir seit 2010 entwickelt, die zur Zeit aktuelle Version ist 2.0. Middleman 3.0 ist aber schon im Beta.
 

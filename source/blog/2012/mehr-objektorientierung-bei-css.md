@@ -178,7 +178,7 @@ Was ist also das Spezielle an dieser Headline? Da das Produkt an einer hervorgeh
 </div>
 ~~~
     
-Natürlich ist die Beschreibung hier auch semantisch und lautet nicht etwa: product-headline--36px. CSS ist keine OO Sprache. Man muss sich also mit Konstrukten wie `class="product-headline product-headline--big` helfen. Namenskonventionen können die Arbeit weiter vereinfachen. Preprozessoren wie SASS und LESS haben eigene Funktionalitäten, um Subklassen zu definieren (@extend).
+Natürlich ist die Beschreibung hier auch semantisch und lautet nicht etwa: product-headline--36px. CSS ist keine OO Sprache. Man muss sich also mit Konstrukten wie "class="product-headline product-headline--big" helfen. Namenskonventionen können die Arbeit weiter vereinfachen. Preprozessoren wie SASS und LESS haben eigene Funktionalitäten, um Subklassen zu definieren (@extend).
 
 Dieser Ansatz wird z.B. im [Twitter Bootstrap](http://twitter.github.com/bootstrap/components.html)  sowie in den Google Produkten angewendet.
 

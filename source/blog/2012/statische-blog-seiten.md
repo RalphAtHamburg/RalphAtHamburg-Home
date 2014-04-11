@@ -34,7 +34,7 @@ Die Beiträge werden im Middleman Projekt in einer festen Ordnerstruktur abgeleg
 
     blog/2012/05
     
-Man kann auch einfach `middleman article 'Statische Blog Seiten'` eintippen, Middleman erstellt dann die entsprechende Datei  an der richtigen Stelle.
+Man kann auch einfach "middleman article 'Statische Blog Seiten'" eintippen, Middleman erstellt dann die entsprechende Datei  an der richtigen Stelle.
 
 Es ist noch nicht einmal nötig, die Beiträge in HTML zu verfassen. Man kann alles in **Markdown** schreiben. Die Formatierungsmöglichkeiten reichen für ein Blog vollkommen aus. Middleman unterstützt dabei  verschiedene Markdown Engines.
 
@@ -61,7 +61,7 @@ Ein Artikel in Markdown sieht dann so aus:
 
     lorem ipsum .....
 
-Mit dem Befehl `middleman build` wird anschließend die statische Website gebaut, die man dann nur noch auf den Server hochladen muss. Noch einfacher geht das mit dem [rakefile](https://gist.github.com/1902178#file_rakefile) von [Scott W.Bradley](http://scottwb.com/blog/2012/02/24/middleman-deployment-rakefile/). Damit ist nur noch der Befehl `rake deploy` einzutippen.
+Mit dem Befehl "middleman build" wird anschließend die statische Website gebaut, die man dann nur noch auf den Server hochladen muss. Noch einfacher geht das mit dem [rakefile](https://gist.github.com/1902178#file_rakefile) von [Scott W.Bradley](http://scottwb.com/blog/2012/02/24/middleman-deployment-rakefile/). Damit ist nur noch der Befehl `rake deploy` einzutippen.
 
 Fehlt schließlich noch die Kommentarfunktion. Die kann man gut outsourcen, z.B. auf [disqus](http://disqus.com). Und schon hat man eine schlanke performante Seite ohne unnötigen Overhead.
 
