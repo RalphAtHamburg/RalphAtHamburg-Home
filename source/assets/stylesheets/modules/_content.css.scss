@@ -4,25 +4,29 @@
 // ---------------------------------------------------------
 
 .content--claim {
-  @include headline-font;
+  @include headline-font(rem-calc(30));
   padding: rem-calc(10 0 30 0);
   line-height: 1.5em;
     
   span {
-    color: $eye-catcher;  }
+    color: $eye-catcher;  
+    }
 }
 
-.content--headline {
+.content--main {
   @include copy-font;
+}
+
+.content--main-headline {
   font-weight: 500;
   padding: rem-calc(10 0 20 0);
   text-transform: uppercase;
 }
 
-.content--copy {
-  @include copy-font;
-  padding: rem-calc(10 0 30 0);
-  line-height: 1.5em;
+.content--main-copy {
+  //@include copy-font;
+  //padding: rem-calc(10 0 30 0);
+  //line-height: 1.5em;
   @include auto-hyphens;
   
   span {

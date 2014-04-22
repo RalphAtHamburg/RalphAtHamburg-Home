@@ -22,13 +22,18 @@
 -# ---------------------------------------------------------
 
 .layout--medium
+
   .layout--medium-box
-    .content--headline= t("home.header_webapps")
-    .content--copy= t("home.webapps")
+    %section
+      %header
+        %h6= t("home.header_webapps")
+      %p= t("home.webapps")
          
   .layout--medium-box
-    .content--headline= t("home.header_websites")
-    .content--copy= t("home.websites")
+    %section
+      %header
+        %h6= t("home.header_websites")
+      %p= t("home.websites")
 
 -# ---------------------------------------------------------
 -# The bottom area with additional content for twitter

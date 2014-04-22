@@ -4,17 +4,11 @@
   
   .layout--about-text 
   
-    .content--headline
-      = t("about.header_me")
-    .content--copy
-      = t("about.me")
-  
-    .content--headline
-      = t("about.header_customer")
-    .content--copy
-      = t("about.customer")
-      %br
-      = t("about.brands", :link_1 => "#{link_to('Inveos', 'http://middlemanapp.com')}",
+    %h6= t("about.header_me")
+    %p= t("about.me")
+    %h6= t("about.header_customer")
+    %p= t("about.customer")
+    %p= t("about.brands", :link_1 => "#{link_to('Inveos', 'http://middlemanapp.com')}",
                           :link_2 => "#{link_to('zweitag', 'http://foundation.zurb.com')}",
                           :link_3 => "#{link_to('ANTS with FRIENDS', 'http://sass-lang.com')}",
                           :link_4 => "#{link_to('mee-moo', 'http://sass-lang.com')}",
@@ -23,7 +17,8 @@
   .layout--about-links
     
     .content--headline
-      = t("about.header_social_media")
+      %h6
+        = t("about.header_social_media")
         
     .socialmedia--link 
       %a{:href => "https://www.xing.com/profile/Ralph_Moecklinghoff"}
