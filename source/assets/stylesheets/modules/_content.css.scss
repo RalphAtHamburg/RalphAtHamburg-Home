@@ -19,16 +19,15 @@
 
 .content--main-headline {
   font-weight: 500;
-  padding: rem-calc(10 0 20 0);
+  padding: rem-calc(10 0 0 0);
   text-transform: uppercase;
 }
 
 .content--main-copy {
-  //@include copy-font;
-  //padding: rem-calc(10 0 30 0);
-  //line-height: 1.5em;
-  @include auto-hyphens;
-  
+  @include copy-font;
+  padding: rem-calc(10 0 30 0);
+  line-height: 1.6em;
+   
   span {
     color: $eye-catcher;
   }

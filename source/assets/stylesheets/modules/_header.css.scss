@@ -7,7 +7,7 @@
 // ---------------------------------------------------------
 
 .header--headline {
-  @include headline-font(rem-calc(52));
+  @include headline-font(rem-calc(48));
   padding-top: rem-calc(20);
 }
 

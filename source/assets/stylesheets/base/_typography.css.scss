@@ -6,7 +6,6 @@
 @mixin headline-font($font-size: rem-calc(32)) {
   font-family: sommet-rounded, 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
   font-size: $font-size;
-  font-weight: 500;
 }
 
 @mixin copy-font($font-size: rem-calc(20)) {
