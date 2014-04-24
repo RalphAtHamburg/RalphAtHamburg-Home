@@ -3,16 +3,16 @@
 .layout--about
   
   .layout--about-text 
-  
-    %h6.content--main= t("about.header_me")
-    %p.content--main-copy= t("about.me")
-    %h6.content--main= t("about.header_customer")
-    %p.content--main-copy= t("about.customer")
-    %p.content--main-copy= t("about.brands", :link_1 => "#{link_to('Inveos', 'http://middlemanapp.com')}",
-                          :link_2 => "#{link_to('zweitag', 'http://foundation.zurb.com')}",
-                          :link_3 => "#{link_to('ANTS with FRIENDS', 'http://sass-lang.com')}",
-                          :link_4 => "#{link_to('mee-moo', 'http://sass-lang.com')}",
-                          :link_5 => "#{link_to('brandmarken.', 'http://haml.info')}" )
+    .content
+      %h6.content--main-headline= t("about.header_me")
+      %p.content--main-copy= t("about.me")
+      %h6.content--main-headline= t("about.header_customer")
+      %p.content--main-copy= t("about.customer")
+      %p.content--main-copy= t("about.brands", :link_1 => "#{link_to('Inveos', 'http://middlemanapp.com')}",
+                            :link_2 => "#{link_to('zweitag', 'http://foundation.zurb.com')}",
+                            :link_3 => "#{link_to('ANTS with FRIENDS', 'http://sass-lang.com')}",
+                            :link_4 => "#{link_to('mee-moo', 'http://sass-lang.com')}",
+                            :link_5 => "#{link_to('brandmarken.', 'http://haml.info')}" )
   
   .layout--about-links
     

@@ -24,13 +24,13 @@
 .layout--medium
 
   .layout--medium-box
-    %section.content--main
+    %section.content
       %header
         %h6.content--main-headline= t("home.header_webapps")
       %p.content--main-copy= t("home.webapps")
          
   .layout--medium-box
-    %section.content--main
+    %section.content
       %header
         %h6.content--main-headline= t("home.header_websites")
       %p.content--main-copy= t("home.websites")
@@ -43,15 +43,15 @@
 .layout--small
   .layout--small-box
   
-    .content--headline-sub
-      Twitter
+    .content--sub-headline
+      = t("home.twitter")
     %a.twitter-timeline{"data-dnt" => "true", "data-widget-id" => "421354655507951616", href: "https://twitter.com/RalphAtHamburg"} Tweets von @RalphAtHamburg    
       
   .layout--small-box
   
-    .content--headline-sub
+    .content--sub-headline
       = t("home.header_middleman")
-    .content--sub
+    .content--sub-copy
       = t("home.middleman", :link_1 => "#{link_to('Middleman', 'http://middlemanapp.com')}",
                             :link_2 => "#{link_to('Foundation 5', 'http://foundation.zurb.com')}",
                             :link_3 => "#{link_to('SASS', 'http://sass-lang.com')}",
@@ -60,14 +60,14 @@
                             :link_6 => "#{link_to('GitHub', 'https://github.com/RalphAtHamburg/RalphAtHamburg')}" )
       
     
-    .content--headline-sub
+    .content--sub-headline
       = t("home.header_awf")
-    .content--sub
+    .content--sub-copy
       = t("home.awf", :link => "#{link_to('ANTS with FRIENDS', 'http://antswithfriends.net')}")
         
   .layout--small-box
-    .content--headline-sub
-      Meine Termine
+    .content--sub-headline
+      = t("home.dates")
     = partial ("dates")
  
 -# ---------------------------------------------------------

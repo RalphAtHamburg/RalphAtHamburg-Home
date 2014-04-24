@@ -4,6 +4,8 @@ source 'http://rubygems.org'
 
 gem "middleman"
 
+gem 'compass', '~> 1.0.0.alpha.19'
+
 # Blogging
 gem "middleman-blog"
 

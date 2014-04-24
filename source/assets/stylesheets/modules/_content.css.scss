@@ -1,6 +1,19 @@
 // ---------------------------------------------------------
-// This module contained all content elements like claim, 
-// testboxes adn so on
+// This module contained all the content (text) elements  
+// like claim, textboxes adn so on.
+// ---------------------------------------------------------
+
+.content {
+	@include copy-font;
+	
+	span {
+    color: $eye-catcher;
+    font-weight: 500;
+  }
+}
+
+// ---------------------------------------------------------
+// The claim.  
 // ---------------------------------------------------------
 
 .content--claim {
@@ -10,30 +23,30 @@
     
   span {
     color: $eye-catcher;  
-    }
+  }
 }
 
-.content--main {
-  @include copy-font;
-}
+// ---------------------------------------------------------
+// Main text which is a littel bigger than the other ones
+// ---------------------------------------------------------
 
 .content--main-headline {
   font-weight: 500;
   padding: rem-calc(10 0 0 0);
-  text-transform: uppercase;
+  font-size: rem-calc(22);
 }
 
 .content--main-copy {
-  @include copy-font;
   padding: rem-calc(10 0 30 0);
   line-height: 1.6em;
-   
-  span {
-    color: $eye-catcher;
-  }
+  font-size: rem-calc(20);
 }
 
-.content--headline-sub { 
+// ---------------------------------------------------------
+// Subtext, a bit smaller.
+// ---------------------------------------------------------
+
+.content--sub-headline { 
   @include copy-font(rem-calc(19));
   padding-bottom: rem-calc(10);
   margin-bottom: rem-calc(40);
@@ -41,11 +54,15 @@
   text-align: center;
 }
 
-.content--sub { 
+.content--sub-copy { 
   @include copy-font(rem-calc(16));
   padding-bottom: rem-calc(30);
   line-height: rem-calc(23);
 }
+
+// ---------------------------------------------------------
+// Special content classes 
+// ---------------------------------------------------------
 
 .content--date {
   @include copy-font(rem-calc(16));

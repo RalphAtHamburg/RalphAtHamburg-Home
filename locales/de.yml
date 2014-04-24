@@ -19,14 +19,16 @@ de:
                aufbauen. Darüber hinaus berate ich Ihr Unternehmen dabei, Ihren Internet Auftritt 
                mit zeitgemäßem Layout und modernster Technik zu gestalten."
     header_middleman: "Über diese Seite" 
-    middleman: "Diese Seite ist mit %{link_1}, einem Generator für statische Webseiten gebaut. Dabei
+    middleman: "Diese Seite wurde mit %{link_1}, einem Generator für statische Webseiten entwickelt. Dabei
                 die folgenden Tools benutzt: %{link_2} (Frontend Framework), %{link_3} (Syntactically 
                 Awesome Style Sheets), %{link_4} (HTML Abstraction Markup Language) und %{link_5}
                 (CSS Authoring Framework). Der Quellcode der Seite kann von %{link_6} herunter geladen werden."
     header_awf: "ANTS with FRIENDS"
     awf: "Ein freies Netz von Online-Experten unter dem Dach einer Marke. Wir sind ein Team 
          eingespielter Designer, Konzepter, Texter und Entwickler. %{link} hat das richtige Team für Ihr Projekt."
-         
+    twitter: "Twitter"
+    dates: "Meine Termine"
+      
   about:
     header_me: "Über mich"
     me: "Ich bin freiberuflicher Software- und Webentwickler aus Hamburg. Ich berate und entwickle 
@@ -37,10 +39,10 @@ de:
     header_customer: "Kunden"
     customer: "Zu meinen Kunden gehören kleinere und mittlere Unternehmen sowie Startups. 
                Für größere Unternehmen arbeite ich in der Regel im Agenturauftrag."
-    brands: "HASPA (für %{link_1}) - Fashmob (für %{link_2}) - ImmoPionier (mit %{link_3}) - 
-             Rexona (für %{link_4}) - Peek&Cloppenburg KG Hamburg (für %{link_5}) - Oldenburgische 
-             Landesbank (für %{link_5}) - Hinz&Kunzt (mit %{link_3}) - 
-             BBDO Proximity (div. Kunden) - Desksurfing (mit %{link_3})"
+    brands: "<span>HASPA</span> (für %{link_1}) - <span>Fashmob</span> (für %{link_2}) - <span>ImmoPionier</span> (mit %{link_3}) - 
+             <span>Rexona</span> (für %{link_4}) - <span>Peek&Cloppenburg KG Hamburg</span> (für %{link_5}) - <span>Oldenburgische 
+             Landesbank</span> (für %{link_5}) - <span>Hinz&Kunzt</span> (mit %{link_3}) - 
+             <span>BBDO Proximity</span> (div. Kunden) - <span>Desksurfing</span> (mit %{link_3})"
     xing: "XING"
     github: "GitHub"
     linked_in: "LinkedIn"
@@ -61,6 +63,15 @@ de:
                 und Sie diese aktiviert haben, wird Piwik die Besucherzugriffe ebenfalls nicht erfassen.
                 Piwik ist nach den Empfehlungen des unabhängigen Landeszentrums für Datenschutz (ULD) 
                 Schleswig-Holstein konfiguriert und folgt den geltenden Datenschutzbestimmungen."
-      
+  header:
+    home: "Home"
+    menu: "Menu"
+    about: "Über mich"
+    work: "Arbeit"
+    blog: "Blog"
+    contact: "Kontakt"
+    header: "Webanwendungs- und Frontendentwicklung"
+    sub_header: "ralph möcklinghoff"
+        
   footer:
     text: "&copy; %{date} &bull; Ralph Möcklinghoff &bull; Hamburg &bull; %{imprint}"
