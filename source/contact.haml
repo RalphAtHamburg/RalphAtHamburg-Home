@@ -1,4 +1,17 @@
 - @contact = true
 
-.layout--full
-  .layout--full-inner Kontaktseite
+.layout--contact
+
+  .layout--contact-box
+    %h6.content--main-headline= t("contact.header_address")
+    %p.content--main-copy= t("contact.address")
+  
+  .layout--contact-box-large 
+    %h6.content--main-headline= t("contact.header_where")
+    %p.content--main-copy= t("contact.where_1")
+    %p.content--main-copy= t("contact.where_2")
+    
+.layout--contact  
+  .layout--contact-box 
+    %h6.content--main-headline= t("contact.header_form")
+    %p.content--main-copy= t("abcontactout.form")

@@ -1,3 +1,13 @@
+        
+-# ---------------------------------------------------------
+-# The HEADLINE 
+-# ---------------------------------------------------------
+
+.layout--full
+  .layout--full-box
+    .header--headline
+      = t("header.header")
+ 
 -# ---------------------------------------------------------
 -# The images 
 -# ---------------------------------------------------------
@@ -8,6 +18,7 @@
       %li= image_tag 'code.jpg'
       %li= image_tag 'html.jpg'
       %li= image_tag 'diagram.jpg'
+
 
 -# ---------------------------------------------------------
 -# The claim 
@@ -61,9 +72,9 @@
       
     
     .content--sub-headline
-      = t("home.header_awf")
+      = t("home.header_coworking")
     .content--sub-copy
-      = t("home.awf", :link => "#{link_to('ANTS with FRIENDS', 'http://antswithfriends.net')}")
+      = t("home.coworking", :link => "#{link_to('Betahaus 2.0', 'http://hamburg.betahaus.de')}")
         
   .layout--small-box
     .content--sub-headline

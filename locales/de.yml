@@ -2,7 +2,7 @@
 de:
 
   home:
-    claim: "Ich bin freiberuflicher Software- und Webentwickler aus Hamburg. Ich berate
+    claim: "Ich bin freiberuflicher Softwareentwickler aus Hamburg. Ich berate
             und entwickle Lösungen in den Bereichen Webanwendungen und Webseiten. Meine 
             Schwerpunkte liegen auf Ruby on Rails und der Frontend Entwicklung             
             (HTML5/SASS/Compass, JavaScript)."
@@ -23,9 +23,10 @@ de:
                 die folgenden Tools benutzt: %{link_2} (Frontend Framework), %{link_3} (Syntactically 
                 Awesome Style Sheets), %{link_4} (HTML Abstraction Markup Language) und %{link_5}
                 (CSS Authoring Framework). Der Quellcode der Seite kann von %{link_6} herunter geladen werden."
-    header_awf: "ANTS with FRIENDS"
-    awf: "Ein freies Netz von Online-Experten unter dem Dach einer Marke. Wir sind ein Team 
-         eingespielter Designer, Konzepter, Texter und Entwickler. %{link} hat das richtige Team für Ihr Projekt."
+    header_coworking: "Coworking"
+    coworking: "Ich arbeite mit einem freies Netz von Online-Experten im %{link} in Hamburgs Schanzenviertel. 
+               Wir sind ein Team eingespielter Designer, Konzepter, Texter und Entwickler. Hier finden Sie das 
+               richtige Team für Ihr Projekt."
     twitter: "Twitter"
     dates: "Meine Termine"
       
@@ -49,6 +50,17 @@ de:
     google: "Google+"
     twitter: "Twitter"
   
+  contact:
+    header_address:
+    address:
+    header_where: "Wo ich arbeite"
+    where_1: "Je nach Anforderung arbeite ich beim Kunden vor Ort oder vom eigenen Büro aus. Häufig realisiere ich meine 
+              Projekte in Coworking Spaces, da ich die dortige kreative Atmosphäre sehr schätze."
+    where_2: "Mehrere große Projekte habe ich in einem dezentral arbeitenden Team umgesetzt. Die dabei gewonnenen Erfahrungen 
+              mit Cloud Systemen und netzbasierter Kommuniktion gebe ich gerne weiter."
+    header_form: "ToDo"
+    form: "ToDo"
+    
   imprint:
     header: "Verantwortlich i.S.d § 5 TMG / § 55 RStV"
     vat: "Umsatzsteuer-Identifikationsnummer gem. § 27a UStG:"
@@ -64,6 +76,7 @@ de:
                 Piwik ist nach den Empfehlungen des unabhängigen Landeszentrums für Datenschutz (ULD) 
                 Schleswig-Holstein konfiguriert und folgt den geltenden Datenschutzbestimmungen."
   header:
+    ralph: "ralph möcklinghoff"
     home: "Home"
     menu: "Menu"
     about: "Über mich"

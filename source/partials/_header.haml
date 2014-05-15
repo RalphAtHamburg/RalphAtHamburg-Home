@@ -2,17 +2,17 @@
 -# The navigation 
 -# ---------------------------------------------------------
 
-.contain-to-grid
+.contain-to-grid.navigation
   %nav.top-bar{"data-topbar" => ""}
     %ul.title-area
       %li.name
         %h1   
-          %a{:href => "/"}= t("header.home")
+          %a{:href => "/", :class => 'header--home'}= t("header.ralph")
       %li.toggle-topbar.menu-icon
         %a{:href => "#"}= t("header.home")
               
     %section.top-bar-section
-      %ul.left
+      %ul.right
         %li{:class => ('active' if @work)}
           %a{:href => "/work.html"}= t("header.work")
         %li{:class => ('active' if @about)}
@@ -21,14 +21,3 @@
           = link_to t("header.blog"), blog.articles.first.url
         %li{:class => ('active' if @contact)}
           %a{:href => "/contact.html"}= t("header.contact")
-        
--# ---------------------------------------------------------
--# The HEADLINE 
--# ---------------------------------------------------------
-
-.layout--full
-  .layout--full-box
-    .header--headline
-      = t("header.header")
-    .header--subheadline
-      = t("header.sub_header")

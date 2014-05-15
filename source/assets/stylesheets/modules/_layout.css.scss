@@ -26,7 +26,7 @@
 }
 
 // ---------------------------------------------------------
-// A half width row for the maijor descriptions
+// A half width row for the major descriptions
 // ---------------------------------------------------------
 
 .layout--medium {
@@ -120,7 +120,11 @@
   @include grid-row;
   
   .layout--work-box {
-    @include grid-column($columns:6);
+    @include grid-column($columns:8);
+  }
+  
+  .layout--work-box-side {
+    @include grid-column($columns:4);
   }
 }
 
@@ -133,6 +137,22 @@
   
   .layout--imprint-box {
     @include grid-column($columns:8, $center:true);
+  }
+}
+
+// ---------------------------------------------------------
+// The contact page
+// ---------------------------------------------------------
+
+.layout--contact {
+  @include grid-row;
+  
+  .layout--contact-box {
+    @include grid-column($columns:4);
+  }
+  
+  .layout--contact-box-large {
+    @include grid-column($columns:8);
   }
 }
 
