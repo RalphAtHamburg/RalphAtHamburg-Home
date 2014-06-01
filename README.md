@@ -15,3 +15,5 @@ The Major components have their own licenses.
 Everything else:
 
 [The Unlicense](http://unlicense.org/) (aka: public domain)
+
+Test: Lets sign something
