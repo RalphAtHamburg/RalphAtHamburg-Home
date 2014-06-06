@@ -4,14 +4,10 @@
 
   .layout--contact-box
     %h6.content--main-headline= t("contact.header_address")
-    %p.content--main-copy= t("contact.address")
-  
+    %p.content--main-contact= t("contact.phone")
+    %p.content--main-contact= t("contact.mail")
+    
   .layout--contact-box-large 
     %h6.content--main-headline= t("contact.header_where")
-    %p.content--main-copy= t("contact.where_1")
+    %p.content--main-copy= t("contact.where_1", :betahaus => "#{link_to('Betahaus', 'http://hamburg.betahaus.de')}")
     %p.content--main-copy= t("contact.where_2")
-    
-.layout--contact  
-  .layout--contact-box 
-    %h6.content--main-headline= t("contact.header_form")
-    %p.content--main-copy= t("abcontactout.form")

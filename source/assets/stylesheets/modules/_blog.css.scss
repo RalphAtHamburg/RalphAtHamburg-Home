@@ -35,12 +35,17 @@
   pre {
     white-space: pre-wrap;
     margin-bottom: rem-calc(24);
-    font-size: rem-calc(20);
+    font-size: rem-calc(16);
     line-height: rem-calc(23);
     overflow: hidden;
     padding: rem-calc(3 10);
     -webkit-border-radius: 3px;
     background-color: #eeeeee;
     border: 1px solid #dddddd;
+    font-weight: normal;
+  }
+  
+  code {
+    font-weight: normal;
   }
 }

@@ -6,6 +6,7 @@
     .content
       %h6.content--main-headline= t("about.header_me")
       %p.content--main-copy= t("about.me")
+      
       %h6.content--main-headline= t("about.header_customer")
       %p.content--main-copy= t("about.customer")
       %p.content--main-copy= t("about.brands", :link_1 => "#{link_to('Inveos', 'http://middlemanapp.com')}",
@@ -16,9 +17,7 @@
   
   .layout--about-links
     
-    .content--headline
-      %h6
-        = t("about.header_social_media")
+    %h6.content--main-headline= t("about.header_social_media")
         
     .socialmedia--link 
       %a{:href => "https://www.xing.com/profile/Ralph_Moecklinghoff"}

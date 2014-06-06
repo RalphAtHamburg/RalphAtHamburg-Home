@@ -6,7 +6,7 @@
   @include copy-font(10);
   padding: rem-calc(20 0);
   text-align: center;
-  color: $light-test-color;
+  color: $light-text-color;
   
   a {
     &:hover { 

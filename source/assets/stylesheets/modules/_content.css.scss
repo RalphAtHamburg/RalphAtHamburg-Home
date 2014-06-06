@@ -42,6 +42,12 @@
   font-size: rem-calc(20);
 }
 
+.content--main-contact {
+  @include border-radius(5px);
+  font-size: rem-calc(20);
+  background-color: $light-grey-color;
+  text-align: center;
+}
 // ---------------------------------------------------------
 // Subtext, a bit smaller.
 // ---------------------------------------------------------
