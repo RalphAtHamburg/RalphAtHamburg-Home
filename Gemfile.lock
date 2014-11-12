@@ -87,7 +87,7 @@ GEM
     middleman-syntax (2.0.0)
       middleman-core (~> 3.2)
       rouge (~> 1.0)
-    minitest (5.4.2)
+    minitest (5.4.3)
     multi_json (1.10.1)
     padrino-helpers (0.12.4)
       i18n (~> 0.6, >= 0.6.7)
@@ -122,7 +122,7 @@ GEM
       hitimes
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uber (0.0.10)
+    uber (0.0.11)
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
