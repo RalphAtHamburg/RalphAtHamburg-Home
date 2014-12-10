@@ -33,8 +33,13 @@
   @include grid-row;
   
   .layout--medium-box{
-    @include grid-column($columns:6);
+    @include grid-column($columns:12);
+    
+    @media #{$medium-up} {
+      @include grid-column($columns:6);
+    }
   }
+  
 }
 
 // ---------------------------------------------------------
@@ -46,10 +51,8 @@
   
   .layout--small-box{
   
-    // Mobile-first: make `layout--small-box` full-width
     @include grid-column($columns:12);
     
-    // On medium-up size, make `layout--small-box` 4 columns wide
     @media #{$medium-up} {
       @include grid-column(4);
     }
@@ -104,11 +107,19 @@
   @include grid-row;
   
   .layout--about-text {
-    @include grid-column($columns:10);
+    @include grid-column($columns:12);
+    
+    @media #{$medium-up} {
+      @include grid-column($columns:10);
+    }
   }
   
   .layout--about-links {
-    @include grid-column($columns: 2);
+    @include grid-column($columns:12);
+    
+    @media #{$medium-up} {
+      @include grid-column($columns:2);
+    }
   }
 }
 
@@ -148,11 +159,19 @@
   @include grid-row;
   
   .layout--contact-box {
-    @include grid-column($columns:4);
+    @include grid-column($columns:12);
+    
+    @media #{$medium-up} {
+      @include grid-column($columns:4);
+    }
   }
   
   .layout--contact-box-large {
-    @include grid-column($columns:8);
+    @include grid-column($columns:12);
+    
+    @media #{$medium-up} {
+      @include grid-column($columns:8);
+    }
   }
 }
 
