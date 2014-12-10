@@ -147,7 +147,11 @@
   @include grid-row;
   
   .layout--imprint-box {
-    @include grid-column($columns:8, $center:true);
+    @include grid-column($columns:12);
+    
+    @media #{$medium-up} {
+      @include grid-column($columns:8, $center:true);
+    }
   }
 }
 

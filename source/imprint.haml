@@ -5,7 +5,8 @@
   .layout--imprint-box
     %p
       = t("imprint.header")
-        
+    %hr
+    
     %ul.vcard
       %li.fm Ralph Möcklinghoff
       %li.street-address Immenhof 35
@@ -14,12 +15,18 @@
         Hamburg
       %li.email mail@ralph-moecklinghoff.de
     
+    %hr
+    
     %p
       = t("imprint.vat")
     
+    %hr
+    
     %p
       = t("imprint.analytics", :link => "#{link_to('Piwik', 'http://piwik.org')}")
-          
+        
+    %hr 
+    
     %h6 Bildnachweis Startseite:
     
     %p
