@@ -20,8 +20,12 @@
       name: "Webmontag Hamburg"
       url:  "http://www.webmontag-hamburg.de/events/2014/32-haw.html"
     -
+      date: "12.11.2014"
+      name: "Ruby on Rails Usergroup Hamburg"
+      url:  "http://hamburg.onruby.de/events/ruby-usergroup-hamburg-november-2014"  
+    -
       date: "8.11.2014 - 9.11.2014"
-      name: "Barcamp Hamburg"
+      name: "Barcamp Hamburg - Otto Group"
       url:  "http://www.barcamp-hamburg.de/"
     -
       date: "07.07.2014"
@@ -41,7 +45,7 @@
       url:  "http://socialmediaweek.org/hamburg"
     -
       date: "15.11.2013 - 16.11.2013"
-      name: "Barcamp Hamburg - Otto Versand"
+      name: "Barcamp Hamburg - Otto Group"
       url:  "http://www.barcamp-hamburg.de"
     -
       date: "12.07.2013"
@@ -53,7 +57,7 @@
       url:  "http://limited-wip-society-hamburg.mixxt.de/networks/events/show_event.78514"
     -
       date: "2.11.2012 - 3.11.2012"
-      name: "Barcamp Hamburg - Otto Versand"
+      name: "Barcamp Hamburg - Otto Group"
       url:  "http://www.barcamp-hamburg.de"
     -
       date: "18.8.2012"
@@ -73,7 +77,7 @@
       url:  "https://www.xing.com/events/smchh-ladt-thema-is-your-facebook-fan-page-worth-anything-26-01-2012-857892"
     -
       date: "11.12.2011 - 12.12.2011"
-      name: "Barcamp Hamburg - Otto Versand"
+      name: "Barcamp Hamburg - Otto Group"
       url:  "http://www.barcamp-hamburg.de"
     -
       date: "3.11.2011"
