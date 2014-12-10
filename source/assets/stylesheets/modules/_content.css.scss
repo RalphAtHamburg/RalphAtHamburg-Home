@@ -17,13 +17,19 @@
 // ---------------------------------------------------------
 
 .content--claim {
-  @include headline-font(rem-calc(30));
+  @include headline-font(rem-calc(24));
   padding: rem-calc(10 0 30 0);
   line-height: 1.5em;
-    
+  
+  @media #{$medium-up} {
+    @include headline-font(rem-calc(30));
+  }
+  
   span {
     color: $eye-catcher;  
   }
+  
+  
 }
 
 // ---------------------------------------------------------
