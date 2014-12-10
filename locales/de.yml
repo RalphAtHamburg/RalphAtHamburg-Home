@@ -40,10 +40,16 @@ de:
     header_customer: "Kunden"
     customer: "Zu meinen Kunden gehören kleinere und mittlere Unternehmen sowie Startups. 
                Für größere Unternehmen arbeite ich in der Regel im Agenturauftrag."
-    brands: "<span>HASPA</span> (für %{link_1}) - <span>Fashmob</span> (für %{link_2}) - <span>ImmoPionier</span> (mit %{link_3}) - 
-             <span>Rexona</span> (für %{link_4}) - <span>Peek&Cloppenburg KG Hamburg</span> (für %{link_5}) - <span>Oldenburgische 
-             Landesbank</span> (für %{link_5}) - <span>Hinz&Kunzt</span> (mit %{link_3}) - 
-             <span>BBDO Proximity</span> (div. Kunden) - <span>Desksurfing</span> (mit %{link_3})"
+    brands: "<span>Allianz AG</span> (für %{link_1}) -
+             <span>Proximity Hamburg</span> (Diverse Kunden) - 
+             <span>Fashmob</span> (für %{link_2}) - 
+             <span>Peek&Cloppenburg KG Hamburg</span> (für %{link_3}) -
+             <span>Oldenburgische Landesbank</span> (für %{link_3}) - 
+             <span>Rexona</span> (für meemoo) - 
+             <span>ImmoPionier</span> (mit %{link_4}) - 
+             <span>Hinz&Kunzt</span> (mit %{link_4}) -
+             <span>Desksurfing</span> (mit %{link_4}) -
+             <span>HASPA</span> (für %{link_5})"   
     xing: "XING"
     github: "GitHub"
     linked_in: "LinkedIn"

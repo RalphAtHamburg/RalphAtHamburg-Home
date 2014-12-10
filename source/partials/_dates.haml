@@ -1,4 +1,8 @@
-- data.events.dates.each do |d| 
+.content--banner
+  %a{:href => "http://re-publica.de", :title => "re:publica 15 - FINDING EUROPE"}
+    %img{:alt => "re:publica 15 - FINDING EUROPE", :src => "http://re-publica.de/files/banner/rp15_banner_2.png"}/
+
+- data.events.dates.each do |d|     
   .content--date
     = d.date
   .content--event

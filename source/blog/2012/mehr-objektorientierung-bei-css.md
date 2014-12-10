@@ -85,10 +85,10 @@ Die vorgeschlagene Lösung besteht jetzt darin, die Gestaltung nicht an HTML Ele
 <!-- products list page -->
 <div id="content">
   <h1>Kaufe coole Klamotten Online</h1>
-
-  <h2 class="product-headline">Jeans 501</h2>
+  
+  <h2 class="product-headline">Jeans 5021</h2>
   <p>.....</p>
-
+  
   <h2 class="product-headline">Hemd Hawaii</h2>
   <p>.....</p>
 </div>
