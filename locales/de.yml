@@ -58,7 +58,8 @@ de:
   
   contact:
     header_address: "Kontakt"
-    phone: "+49 151 22630332"
+    phone: "(0151) 22630332"
+    phone-technical: "tel:+15122630332"
     mail: "mail@ralph-moecklinghoff.de"
     header_where: "Wo ich arbeite"
     where_1: "Je nach Anforderung arbeite ich beim Kunden vor Ort, oder im %{betahaus} einem Coworking Space im Hamburger Schanzenviertel. Hier habe ich eine produktive Umgebung mit Besprechungs- und Schulungsräumen. Der direkte Kontakt mit anderen innovativen Köpfen verschiedenster Fachrichtungen, sowie der Austausch mit den hier ansässigen Startups helfen mir beim Arbeiten und ermöglichen einen Bick über den Tellerrand hinaus. 
