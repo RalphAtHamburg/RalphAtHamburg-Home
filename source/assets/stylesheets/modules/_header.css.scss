@@ -4,7 +4,7 @@
 // ---------------------------------------------------------
 
 .header--headline {
-  @include headline-font(rem-calc(28));
+  @include headline-font(rem-calc(26));
   padding-bottom: rem-calc(20);
   
   @media #{$medium-up} {
@@ -19,6 +19,10 @@
 }
 
 .header--home {
-  @include headline-font(rem-calc(28));
+  @include headline-font(rem-calc(24));
   color: $eye-catcher !important;
+  
+  @media #{$medium-up} {
+    @include headline-font(rem-calc(28));
+  }
 }

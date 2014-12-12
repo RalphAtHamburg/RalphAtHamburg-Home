@@ -17,7 +17,7 @@
 // ---------------------------------------------------------
 
 .content--claim {
-  @include headline-font(rem-calc(24));
+  @include headline-font(rem-calc(18));
   padding: rem-calc(10 0 30 0);
   line-height: 1.5em;
   
@@ -45,7 +45,11 @@
 .content--main-copy {
   padding: rem-calc(10 0 30 0);
   line-height: 1.6em;
-  font-size: rem-calc(20);
+  font-size: rem-calc(18);
+  
+   @media #{$medium-up} {
+    font-size: rem-calc(20);
+  }
 }
 
 .content--main-contact {
