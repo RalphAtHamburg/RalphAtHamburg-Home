@@ -13,10 +13,10 @@ Als Einteilung gibt es nur Module. Elemente innerhalb eines Module werden mit zw
     font-size: 24px;
     color: #223322;
 
-    product--list {
+    .product--list {
         background-color: #f1f1f1;
 
-        product--list-price {
+        .product--list-price {
            font-weight: 600;
         }
     }
