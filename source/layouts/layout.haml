@@ -5,6 +5,11 @@
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
     %title= @title || "Webanwendungen - Webseiten -Social Media / Ralph M&ouml;cklinghoff - Hamburg"
     
+    - if @imprint 
+      %meta{:content => "noindex, nofollow", :name => "robots"}
+    - else
+      %meta{:content => "index, follow", :name => "robots"}
+      
     // TODO made font-awesome running from bower_components
     %link{href: "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", rel: "stylesheet"}/
     
@@ -14,6 +19,7 @@
     
     = stylesheet_link_tag "app"
     = javascript_include_tag "before"
+    
   %body{class: page_classes}
     = partial "header"
     
