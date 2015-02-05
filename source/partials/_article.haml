@@ -12,7 +12,7 @@
         
         
   .layout--blog-head-visual
-    = image_tag "code-2.jpg"
+    = image_tag "code-2.jpg", :alt => "blog header"
       
     
 .layout--blog-article
@@ -27,9 +27,6 @@
     
       .blog--markdown
         = yield_content :blog_article
-          
-    #social-links
-      = link_to "Google+", "https://plus.google.com/111711791402435561115?prsrc=3", {:rel => "author", :style => "text-decoration:none;", :class => "icons-google-plus-black"}
     
     #disqus_thread
       :javascript

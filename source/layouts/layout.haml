@@ -3,7 +3,17 @@
   %head
     %meta{charset: "utf-8"}
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
-    %title= @title || "Webanwendungen - Webseiten -Social Media / Ralph M&ouml;cklinghoff - Hamburg"
+    %meta{content: "Freiberuflicher Softwareentwickler aus Hamburg. Webanwendungen / Frontendentwichlung - Ruby On Rails, JavaScript, HTML, SASS", name: "description"}
+    
+    %meta{:content => "RubyOnRails Javascript HTML/SASS Webanwendungen Hamburg", :property => "og:title"}
+    %meta{:content => "Freiberuflicher Softwareentwickler aus Hamburg. Webanwendungen / Frontendentwichlung - Ruby On Rails, JavaScript HTML, SASS", :property => "og:description"}   
+    %meta{:content => "de_DE", :property => "og:locale"}
+    %meta{:content => "en_US", :property => "og:locale:alternate"}
+    %meta{:content => "Socialweb Development", :property => "og:site_name"}/
+    %meta{:content => "Michael Nordmeyer - Mobile & Web Apps", :property => "og:title"}
+    %meta{:content => "http://socialweb-development.de", :property => "og:url"}
+    
+    %title= @title || "RubyOnRails Javascript HTML/SASS Webanwendungen Hamburg"
     
     - if @imprint 
       %meta{:content => "noindex, nofollow", :name => "robots"}
