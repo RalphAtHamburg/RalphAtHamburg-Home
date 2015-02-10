@@ -1,19 +1,19 @@
 !!!
 %html.no-js{lang: "en"}
   %head
+    
     %meta{charset: "utf-8"}
     %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
-    %meta{content: "Freiberuflicher Softwareentwickler aus Hamburg. Webanwendungen / Frontendentwichlung - Ruby On Rails, JavaScript, HTML, SASS", name: "description"}
+    %meta{content: "#{t("layout.meta_description")}", name: "description"}
     
-    %meta{:content => "RubyOnRails Javascript HTML/SASS Webanwendungen Hamburg", :property => "og:title"}
-    %meta{:content => "Freiberuflicher Softwareentwickler aus Hamburg. Webanwendungen / Frontendentwichlung - Ruby On Rails, JavaScript HTML, SASS", :property => "og:description"}   
+    %meta{:content => "#{t("layout.meta_title")}", :property => "og:title"}
+    %meta{:content => "#{t("layout.meta_description")}", :property => "og:description"}   
     %meta{:content => "de_DE", :property => "og:locale"}
     %meta{:content => "en_US", :property => "og:locale:alternate"}
-    %meta{:content => "Socialweb Development", :property => "og:site_name"}/
-    %meta{:content => "Michael Nordmeyer - Mobile & Web Apps", :property => "og:title"}
-    %meta{:content => "http://socialweb-development.de", :property => "og:url"}
+    %meta{:content => "#{t("layout.meta_site_name")}", :property => "og:site_name"}/
+    %meta{:content => "#{t("layout.meta_url")}", :property => "og:url"}
     
-    %title= @title || "RubyOnRails Javascript HTML/SASS Webanwendungen Hamburg"
+    %title= @title || "#{t("layout.meta_title")}"
     
     - if @imprint 
       %meta{:content => "noindex, nofollow", :name => "robots"}

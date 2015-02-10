@@ -1,6 +1,12 @@
 ---
 de:
-
+  
+  layout:
+    meta_title: "Webanwendungen Frontend - Ruby On Rails - Ralph Möcklinghoff"
+    meta_description: "Ich bin freiberuflicher Softwareentwickler aus Hamburg. Ich entwickle Webseiten mit Ruby On Rails, HTML5, CSS3, Haml, Sass/SCCS und JavaScript"
+    meta_site_name: "Socialweb Development"
+    meta_url: "http://socialweb-development.de"
+    
   home:
     claim: "Ich bin freiberuflicher Softwareentwickler aus Hamburg. Ich berate
             und entwickle Lösungen in den Bereichen Webanwendungen und Webseiten. Meine 
