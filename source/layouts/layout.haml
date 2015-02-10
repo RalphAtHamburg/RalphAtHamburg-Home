@@ -1,34 +1,7 @@
 !!!
 %html.no-js{lang: "en"}
-  %head
-    
-    %meta{charset: "utf-8"}
-    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}
-    %meta{content: "#{t("layout.meta_description")}", name: "description"}
-    
-    %meta{:content => "#{t("layout.meta_title")}", :property => "og:title"}
-    %meta{:content => "#{t("layout.meta_description")}", :property => "og:description"}   
-    %meta{:content => "de_DE", :property => "og:locale"}
-    %meta{:content => "en_US", :property => "og:locale:alternate"}
-    %meta{:content => "#{t("layout.meta_site_name")}", :property => "og:site_name"}/
-    %meta{:content => "#{t("layout.meta_url")}", :property => "og:url"}
-    
-    %title= @title || "#{t("layout.meta_title")}"
-    
-    - if @imprint 
-      %meta{:content => "noindex, nofollow", :name => "robots"}
-    - else
-      %meta{:content => "index, follow", :name => "robots"}
-      
-    // TODO made font-awesome running from bower_components
-    %link{href: "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css", rel: "stylesheet"}/
-    
-    %script{:src => "http://use.typekit.com/kmw2qfx.js"}
-    :javascript
-      try{Typekit.load();}catch(e){}
-    
-    = stylesheet_link_tag "app"
-    = javascript_include_tag "before"
+
+  = partial "layout_header"
     
   %body{class: page_classes}
     = partial "header"
