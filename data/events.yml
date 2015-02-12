@@ -7,10 +7,15 @@
 
 ---
   dates: 
+    
     -
       date: "05.05.2015 - 07.05.2015"
       name: "re:publica 15"
       url:  "http://re-publica.de"
+    -
+      date: "20.02.2015 - 22.02.2015"
+      name: "Speed UP! Europe - Kickoff Event Hamburg"
+      url:  "https://speedupeu.wordpress.com/2015/01/26/kickoff-event-in-hamburg/" 
     -
       date: "23.02.2015 - 27.02.2015"
       name: "Social Media Week - Hamburg / REIMAGINING HUMAN CONNECTIVITY"
