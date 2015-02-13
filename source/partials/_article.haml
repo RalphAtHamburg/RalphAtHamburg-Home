@@ -23,7 +23,8 @@
         %h3
           = current_article.title 
           %span
-            %time= current_article.date.strftime('%d.%m.%Y')
+            %time{ :datetime => "#{current_article.date}" }
+              = current_article.date.strftime('%d.%m.%Y')
     
       .blog--markdown
         = yield_content :blog_article
