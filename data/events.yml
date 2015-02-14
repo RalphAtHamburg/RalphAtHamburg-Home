@@ -7,11 +7,15 @@
 
 ---
   dates: 
-    
+
     -
       date: "05.05.2015 - 07.05.2015"
       name: "re:publica 15"
       url:  "http://re-publica.de"
+    -
+      date: "12.03.2015 - 14.03.2015"
+      name: "Work In Progress"
+      url:  "http://work-in-progress-hamburg.de/"
     -
       date: "20.02.2015 - 22.02.2015"
       name: "Speed UP! Europe - Kickoff Event Hamburg"
