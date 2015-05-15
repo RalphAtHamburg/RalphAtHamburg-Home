@@ -9,6 +9,10 @@
   dates: 
 
     -
+      date: "22.06.2015"
+      name: "TEDx Hamburg - Exploring New Territories"
+      url:  "http://www.tedxhamburg.de/"
+    -
       date: "05.05.2015 - 07.05.2015"
       name: "re:publica 15"
       url:  "http://re-publica.de"
