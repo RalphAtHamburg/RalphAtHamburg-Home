@@ -55,7 +55,8 @@ de:
              <span>ImmoPionier</span> (mit %{link_4}) - 
              <span>Hinz&Kunzt</span> (mit %{link_4}) -
              <span>Desksurfing</span> (mit %{link_4}) -
-             <span>HASPA</span> (für %{link_5})"   
+             <span>HASPA</span> (für %{link_5})" -
+             <span>BRANDSLISTEN</span> (für %{link_6})
     xing: "XING"
     github: "GitHub"
     linked_in: "LinkedIn"
